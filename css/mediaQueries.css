@@ -9,38 +9,38 @@
 
 @media screen and (max-width: 1150px) {
 	#footer {
-		justify-content: flex-end;
+		justify-content: flex-end !important;
 	}
 	#colWrapper{
-		position:relative;
-		right:auto;
+		position:relative !important;
+		right:auto !important;
 	}
 	#socialWrapper{
-		left:-10px;
+		left:-10px !important;
 	}
 	#footer .footerIcon{
-		display:none;
+		display:none !important;
 	}
 }
 
 @media screen and (max-width: 885px) {
 	#footer {
-		flex-direction: column;
+		flex-direction: column !important;
 	}
 	#colWrapper{
-		position:relative;
-		right:auto;
-		justify-content: center;
+		position:relative !important;
+		right:auto !important;
+		justify-content: center !important;
 		
-		margin-top:20px;
-		background-color:#BE8972;
-		width:100vw;
-		color:white;
+		margin-top:20px !important;
+		background-color:#BE8972 !important;
+		width:100vw !important;
+		color:white !important;
 	}
 	#socialWrapper{
-		position:relative;
-		left:auto;
-		padding-top:20px;
+		position:relative !important;
+		left:auto !important;
+		padding-top:20px !important;
 	}
 }
 
@@ -49,35 +49,37 @@
 		display:none !important;
 	}
 	.hamburger{
-		display:inherit;
-		position:fixed;
-		top:25px;
-		right:20px;
-		z-index: 100;
+		display:inherit !important;
+		position:fixed !important;
+		top:25px !important;
+		right:20px !important;
+		z-index: 100 !important;
 	}
 	.navLogoContainer{
-		top:0;
+		top:0 !important;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	.page em{
-		margin:0; padding:0;
+		margin:0; padding:0 !important;
 	}
 	#page1{
-		height:auto;
-		padding:100px 0;
-		flex-wrap: wrap;
+		height:auto !important;
+		padding:100px 0 !important;
+		flex-wrap: wrap !important;
 	}
 	#page1 img{
-		width:100vw;
+		width:100vw !important;
 	}
 	#page1 h2{
-		max-width:calc(100vw - 30px);
-		font-size:5vmin;
+		max-width:calc(100vw - 30px) !important;
+		font-size:5vmin !important;
 	}
 	#page2{
-		background-position: center center;
+		background-position: center center !important;
 	}
-	#footer2{font-size:13px;}
+	#footer2{
+		font-size:13px !important;
+	}
 }
