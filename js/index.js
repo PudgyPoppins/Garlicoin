@@ -25,3 +25,12 @@ $(function() {
 });
 
 $(".nav").scrollspy({ offset: -85 });
+
+function on() {
+	var x = document.getElementById("smallScreenNav");
+	if (x.style.display === "flex") {
+			x.style.display = "none";
+	} else {
+			x.style.display = "flex";
+	}
+}
