@@ -8,6 +8,9 @@
 }
 
 @media screen and (max-width: 1150px) {
+	#progressWrapper{
+		flex-direction: column;
+	}
 	#footer {
 		justify-content: flex-end !important;
 	}
