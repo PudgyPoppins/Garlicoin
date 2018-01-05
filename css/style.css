@@ -274,14 +274,14 @@ li > a:hover:before {
 	border-radius:5px 5px 0 0;
 }
 .featureBox h2{
-	font-family:sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align:center;
 	font-weight:500;
-	margin:0;
+	margin:10px 0 0 0;
 }
 .featureBox p{
 	margin-top:5px;
-	max-width:270px;
+	max-width:265px;
 	margin-left:5px;
 }
 
