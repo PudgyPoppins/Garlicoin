@@ -34,3 +34,11 @@ function on() {
 			x.style.display = "flex";
 	}
 }
+
+var bars = document.getElementById('smallScreenNav');
+
+window.onclick = function(event) {
+    if (event.target == bars) {
+        bars.style.display = "none";
+    }
+}
