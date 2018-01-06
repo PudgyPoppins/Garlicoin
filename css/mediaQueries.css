@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* media queries*/
+@media screen and (min-width: 2560px) {
+	/*Put something here for those BIG BOYE screens*/
+}
 
 @media screen and (min-width: 730px) {
 	.hamburger{
