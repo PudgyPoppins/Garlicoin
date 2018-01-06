@@ -71,7 +71,7 @@
 		margin:0 !important; padding:0 !important;
 	}
 	#page1{
-		height:auto ;
+		height:auto !important;
 		padding:100px 0 !important;
 		flex-wrap: wrap !important;
 	}
@@ -87,5 +87,11 @@
 	}
 	#footer2{
 		font-size:13px !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#socialWrapper input[type=email]{
+		width:300px !important;
 	}
 }

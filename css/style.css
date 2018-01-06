@@ -460,7 +460,7 @@ input::placeholder{
 
 #colWrapper{
 	display:flex;
-	flex-direction: row;
+	flex-flow: row wrap;
 	justify-content: flex-end;
 	color:#BE8972;
 	
