@@ -10,7 +10,7 @@ body{
 
 #smallScreenNav{
 	display:none;
-	
+
 	width:100vw;
 	height:100vh;
 	z-index:16;
@@ -21,7 +21,7 @@ body{
 }
 #smallScreenNav li{
 	list-style: none;
-	font-size:40px;
+	font-size:2.5em;
 	text-align: center;
 	font-family: sans-serif;
 	margin:10px 0;
@@ -37,7 +37,7 @@ body{
 	padding:15px 0px;
 	position:fixed; top:0;
 	display:flex; align-items: center; justify-content: flex-end;
-	font-size:16px;
+	font-size:1em;
 	color:white;
 	font-family:sans-serif;
 	background-color:rgba(0,0,0,0.00);
@@ -76,10 +76,10 @@ body{
 	transition:0.7s;
 }
 .navLogoContainer p{
-	margin-left:10px; 
-	font-size:20px; 
-	font-style: italic; 
-	font-weight: 600; 
+	margin-left:10px;
+	font-size:1.25em;
+	font-style: italic;
+	font-weight: 600;
 	letter-spacing: 1px;
 	font-family:sans-serif;
 }
@@ -155,13 +155,14 @@ li > a:hover:before {
 }
 .bigBtn{
 	padding:15px 25px;
-	font-size:20px;
+	font-size:1.25em;
 	border:3px solid #6a8bfa;
 	border-radius:5px;
 	color:white;
 	font-family: sans-serif;
 	font-weight:bold;
 	transition: 0.7s;
+	width:120px;
 }
 .bigBtn:hover{
 	background-color:#846F65;
@@ -197,13 +198,14 @@ li > a:hover:before {
 #page1 h2{
 	color:white;
 	font-family: sans-serif;
-	font-size:24px;
+	font-size:1.5em;
 	max-width:500px;
 }
 #tv-medium-widget-0c2df{
 	filter: invert(78.5%) blur(5px);
 	position:absolute; top:0; left:0;
 	z-index: -1;
+	height:500px;
 }
 
 #page2{
@@ -214,7 +216,7 @@ li > a:hover:before {
 	/*display:flex;
 	flex-direction: row;
 	align-items: center;*/
-	
+
 	background-image:url(../img/logoBackground.png);
 	background-repeat: no-repeat;
 	background-size:500px;
@@ -229,11 +231,11 @@ li > a:hover:before {
 #page2 h1{padding-top:0 !important;}
 #page2 p{
 	color:#333333;
-	font-size:18px;
+	font-size:1.125em;
 	max-width: 800px;
 }
 #page2 p::first-letter{
-	font-size:26px;
+	font-size:1.625em;
 	font-weight: bolder;
 	max-width: 800px;
 }
@@ -320,7 +322,7 @@ li > a:hover:before {
 .downloadBtn h2{
 	color:white;
 	font-family:sans-serif;
-	font-size:18px;
+	font-size:1.125em;
 	margin:0 0 0 15px;
 }
 
@@ -363,11 +365,11 @@ li > a:hover:before {
 .card article {
   padding: 20px;
   display: flex;
-  
+
   flex: 1;
   justify-content: space-between;
   flex-direction: column;
-  
+
 }
 .card .thumb {
   padding-bottom: 60%;
@@ -375,14 +377,14 @@ li > a:hover:before {
   background-position: center center;
 }
 
-.card p { 
+.card p {
   flex: 1; /* make p grow to fill available space*/
   line-height: 1.4;
 }
 
 /* typography */
 .card h1 {
-  font-size: 20px;
+  font-size: 1.25em;
   margin: 0;
 	margin-top:-15px;
   color: #333;
@@ -400,7 +402,7 @@ li > a:hover:before {
 	color:white;
 	margin-left:20px;
 	height:155px;
-	
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -413,7 +415,7 @@ li > a:hover:before {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	
+
 	position:absolute;
 	left:20px;
 }
@@ -426,7 +428,7 @@ li > a:hover:before {
 	text-align: center;
 	width:340px;
 	color:#BE8972;
-	font-size:18px;
+	font-size:1.125em;
 }
 #socialWrapper input[type=email]:focus {
 	border-color:#BE8972;
@@ -434,7 +436,7 @@ li > a:hover:before {
 	transition: border-color .2s linear;
 }
 input::placeholder{
-	font-size:18px;
+	font-size:1.125em;
 	font-family: "Open Sans" "abril-fatface", sans-serif;
 	color:#9e6248;
 }
@@ -443,7 +445,7 @@ input::placeholder{
 	border-radius:9999px;
 	background-color:transparent;
 	margin-top:20px;
-	font-size: 18px;
+	font-size: 1.125em;
 	color:#BE8972;
 	border:2px solid #9e6248;
 	transition: border-color .2s linear;
@@ -462,7 +464,7 @@ input::placeholder{
 	flex-flow: row wrap;
 	justify-content: flex-end;
 	color:#BE8972;
-	
+
 	position:absolute;
 	right:20px;
 }
@@ -475,4 +477,4 @@ input::placeholder{
 .col p:hover{cursor:pointer;}
 .col h4{margin-bottom:0; font-family: sans-serif;}
 
-#footer2{color:white; padding:12px; font-size:16px; font-family: sans-serif;}
+#footer2{color:white; padding:12px; font-size:1em; font-family: sans-serif;}

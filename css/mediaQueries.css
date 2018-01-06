@@ -1,7 +1,41 @@
 @charset "UTF-8";
 /* media queries*/
+
 @media screen and (min-width: 2560px) {
-	/*Put something here for those BIG BOYE screens*/
+	.nav li{font-size:1.875em !important;}
+	.navLogoContainer img{width:75px !important;}
+	.navLogoContainer p{font-size:1.875em !important;}
+	.navLogoContainer {height:95px !important;}
+	#logoBanner{width:750px !important;}
+	#page1 h2{max-width:750px !important; font-size:2.25em !important;}
+	.bigBtn{width:180px !important; font-size: 1.875em !important;}
+	
+	#page1{height:750px !important;}
+	#tv-medium-widget-0c2df{height:750px !important;}
+	
+	.page h1{font-size:3em !important;}
+	.page em{font-size:1.5em !important;}
+	
+	p, #footer2{font-size:1.6875em !important;}
+	#page2 p{max-width:1200px !important;}
+	
+	#page3{margin-top:-32px !important;}
+	.featureBox h2{font-size:2.25em !important;}
+	.featureBox p{max-width:397.5px !important;}
+	.featureBox{width:420px !important; height:450px !important;}
+	.icon{padding:15px 160px !important;}
+	
+	#page5{margin-top:-32px !important;}
+	
+	#progressWrapper iframe, #reddit-cardWrapper{height:450px !important;}
+	#progressImg{height:180px !important;}
+	
+	.card{height:640px !important; max-width:420px !important; margin:22.5px 30px !important;}
+	
+	h4{font-size:1.5em;}
+	.footerIcon{height:232.5px !important;}
+	#socialWrapper input[type=email]{width:510px !important; font-size:1.6875em !important;}
+	#socialWrapper button{padding:7.5px 22.5px !important; font-size:1.6875em !important;}
 }
 
 @media screen and (min-width: 730px) {
@@ -37,7 +71,7 @@
 		position:relative !important;
 		right:auto !important;
 		justify-content: center !important;
-		
+
 		margin-top:20px !important;
 		background-color:#BE8972 !important;
 		width:100vw !important;
