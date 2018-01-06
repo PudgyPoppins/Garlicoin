@@ -295,6 +295,7 @@ li > a:hover:before {
 	align-items: center;
 }
 #progressWrapper iframe, #reddit-cardWrapper{margin:15px 20px; width:100vw; height:300px; overflow:scroll;}
+.reddit-card{min-height:1137px !important;}
 
 #progressImg{
 	width:calc(100vw - 60px);

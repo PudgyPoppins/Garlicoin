@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1150px) {
 	#progressWrapper{
-		flex-direction: column;
+		flex-direction: column !important;
 	}
 	#footer {
 		justify-content: flex-end !important;
@@ -68,10 +68,10 @@
 
 @media screen and (max-width: 500px) {
 	.page em{
-		margin:0; padding:0 !important;
+		margin:0 !important; padding:0 !important;
 	}
 	#page1{
-		height:auto !important;
+		height:auto ;
 		padding:100px 0 !important;
 		flex-wrap: wrap !important;
 	}
