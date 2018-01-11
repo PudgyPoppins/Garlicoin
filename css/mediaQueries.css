@@ -9,29 +9,29 @@
 	#logoBanner{width:750px !important;}
 	#page1 h2{max-width:750px !important; font-size:2.25em !important;}
 	.bigBtn{width:180px !important; font-size: 1.875em !important;}
-	
+
 	#page1{height:750px !important;}
 	#tv-medium-widget-0c2df{height:750px !important;}
-	
+
 	.page h1{font-size:3em !important;}
 	.page em{font-size:1.5em !important;}
-	
+
 	p, #footer2{font-size:1.6875em !important;}
 	#page2 p{max-width:1200px !important;}
-	
+
 	#page3{margin-top:-32px !important;}
 	.featureBox h2{font-size:2.25em !important;}
 	.featureBox p{max-width:397.5px !important;}
 	.featureBox{width:420px !important; height:450px !important;}
 	.icon{padding:15px 160px !important;}
-	
+
 	#page5{margin-top:-32px !important;}
-	
+
 	#progressWrapper iframe, #reddit-cardWrapper{height:450px !important;}
 	#progressImg{height:180px !important;}
-	
+
 	.card{height:640px !important; max-width:420px !important; margin:22.5px 30px !important;}
-	
+
 	h4{font-size:1.5em;}
 	.footerIcon{height:232.5px !important;}
 	#socialWrapper input[type=email]{width:510px !important; font-size:1.6875em !important;}
@@ -51,6 +51,10 @@
 	}
 	#progressWrapper{
 		flex-direction: column !important;
+	}
+	.card{
+		flex:0 0 30% !important;
+		width: 30% !important;
 	}
 	#footer {
 		justify-content: flex-end !important;
@@ -82,7 +86,7 @@
 	#wrapper{
 		width:100% !important;
 	}
-	
+
 	#footer {
 		flex-direction: column !important;
 	}
@@ -96,6 +100,9 @@
 		width:100vw !important;
 		color:white !important;
 	}
+	.col a, .col a:hover, .col a:focus {
+    color: white !important;
+	}
 	#socialWrapper{
 		position:relative !important;
 		left:auto !important;
@@ -103,7 +110,7 @@
 	}
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 780px) {
 	.nav li{
 		display:none !important;
 	}
@@ -116,6 +123,9 @@
 	}
 	.navLogoContainer{
 		top:0 !important;
+	}
+	.card{
+		flex:0 0 70% !important;
 	}
 }
 
