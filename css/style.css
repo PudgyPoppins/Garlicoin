@@ -147,7 +147,7 @@ li > a:hover:before {
 }
 
 .page h1{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	color:#373737;
 	text-align: center;
@@ -237,8 +237,8 @@ li > a:hover:before {
 	padding: 0;
 }
 #page2 h1{
-	padding-top:0 !important; 
-	font-family: 'Montserrat', sans-serif; 
+	padding-top:0 !important;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size:1.875em;
 }
@@ -287,7 +287,7 @@ li > a:hover:before {
 	align-items: flex-start;
 	flex:0 0 28%;
 	max-width: 28%;
-	
+
 }
 .featureBox:hover #featureBoxContainer{
 	align-items: center !important;
@@ -359,35 +359,42 @@ li > a:hover:before {
 }
 
 .band {
-  margin: 0 auto;
-	margin-top:15px;
   display:flex;
-	flex-flow: row wrap;
 	justify-content: center;
-	align-content: stretch;
+	flex-wrap: wrap;
+	align-items:stretch;
+	margin-top:20px;
 }
 
 /* card */
 
-.card {
-  height:400px;
+.card{
+  /*height:400px;
+	max-width:280px;*/
 	overflow:hidden;
   background: white;
+	color: #444;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	transition: all .1s ease-in;
+
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: #444;
-	margin:20px 5px;
-  transition: all .1s ease-in;
-	max-width:280px;
+
+	margin:20px 10px;
+	padding:60px 40px;
+	flex:0 0 20%;
+	width: 20%;
 }
+
+.card a{color: #444; text-decoration:none;}
 
 .card:hover {
   margin-top: -5px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 	cursor:not-allowed;
 }
+.card a:hover{cursor:not-allowed;}
 
 .card article {
   padding: 20px;
@@ -396,25 +403,25 @@ li > a:hover:before {
   flex: 1;
   justify-content: space-between;
   flex-direction: column;
+}
+.card fa{
 
 }
-.card .thumb {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-}
-
 .card p {
   flex: 1; /* make p grow to fill available space*/
-  line-height: 1.4;
+  font-size:0.875em;
+	font-family:"Open Sans", sans-serif;
+	line-height: 1.65714286em;
+	text-align:center;
 }
 
 /* typography */
 .card h1 {
-  font-size: 1.25em;
+  font-size: 1.125em;
   margin: 0;
 	margin-top:-15px;
   color: #333;
+	font-family: "Montserrat", sans-serif;
 }
 
 #footer{
