@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+	.featureBox{
+		max-width:100% !important;
+		flex:0 0 100% !important;
+	}
 	#progressWrapper{
 		flex-direction: column !important;
 	}
@@ -64,6 +68,21 @@
 }
 
 @media screen and (max-width: 885px) {
+	#page2{
+		display:flex !important;
+		flex-direction:column !important;
+		background-image:url(../img/logoBackground.png) !important;
+		background-repeat: no-repeat !important;
+		background-size:500px !important;
+		background-position: left center !important;
+	}
+	.parallexIMG{
+		display:none !important;
+	}
+	#wrapper{
+		width:100% !important;
+	}
+	
 	#footer {
 		flex-direction: column !important;
 	}

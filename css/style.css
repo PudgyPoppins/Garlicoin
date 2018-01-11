@@ -69,10 +69,11 @@ body{
 }
 .navLogoContainer img{
 	width:50px;
+	height: 50px;
 	transition:0.7s;
 }
 .scrolled img{
-	filter: invert(100%);
+	filter: grayscale(100%);
 	transition:0.7s;
 }
 .navLogoContainer p{
@@ -86,7 +87,7 @@ body{
 
 .scrolled{
   background-color: white;
-	color:black;
+	color:#373737;
 	transition:0.7s;
 }
 .nav.scrolled{
@@ -95,8 +96,13 @@ body{
 
 li > a {
   position: relative;
-  color: white;
+	color:white;
   text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-size: .75rem;
+	font-family: "Montserrat", sans-serif;
 }
 
 li > a:hover {
@@ -119,7 +125,7 @@ li > a:before {
 }
 
 .scrolled li > a {
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .scrolled li > a:hover {
@@ -136,14 +142,13 @@ li > a:hover:before {
   transform: scaleX(1);
 }
 .active a {
-	background-color:#6a8bfa;
-	color:white !important;
-	padding:5px;
-	border-radius:5px;
+	border-top:3px solid #6a8bfa;
+	padding-top:33px;
 }
 
 .page h1{
-	font-family:sans-serif;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:700;
 	color:#373737;
 	text-align: center;
 	padding-top:20px;
@@ -212,81 +217,103 @@ li > a:hover:before {
 	background-color:white;
 	margin-top:0;
 	border-top:1px solid black;
-	padding:20px;
-	/*display:flex;
-	flex-direction: row;
-	align-items: center;*/
+	position: relative;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
 
-	background-image:url(../img/logoBackground.png);
+	/*background-image:url(../img/logoBackground.png);
 	background-repeat: no-repeat;
 	background-size:500px;
-	background-position: left center;
+	background-position: left center;*/
 }
 #page2 #wrapper{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: calc(50% - 4px);
+	height:100%;
+	padding: 0;
 }
-#page2 h1{padding-top:0 !important;}
+#page2 h1{
+	padding-top:0 !important; 
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:700;
+	font-size:1.875em;
+}
 #page2 p{
 	color:#333333;
-	font-size:1.125em;
+	font-size:0.875em;
 	max-width: 800px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.65714286em;
+	margin:5px 70px;
 }
-#page2 p::first-letter{
-	font-size:1.625em;
+#page2 p:first-of-type:first-letter{
+	font-size:1.4em;
 	font-weight: bolder;
 	max-width: 800px;
+	font-family:sans-serif;
 }
-#page2 img{
-	margin-left:20px;
-	width:500px;
+.parallexIMG{
+	position: absolute;
+	right:0;
+	width: 50%;
+	height: 100%;
+	top:0;
+	background-repeat: no-repeat; background-size: contain; background-position:90% center; background-attachment: fixed;
 }
 
 #page3{
 	background-color:#EFEFEF;
 	margin-top:-23px;
+	padding-bottom: 20px;
 }
 #featureBoxContainer{
 	display:flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	align-items:center;
+	align-items:stretch;
+	margin-top:20px;
 }
 
 .featureBox{
-	background-color:#ccc;
 	border-radius:5px;
-	margin:35px 20px 20px 20px;
+	margin:10px 20px;
 	transition: 0.2s linear;
-	width:280px;
-	height:300px;
-}
-.featureBox:hover{
-	margin-top:-5px;
-	margin-left:-5px;
-	box-shadow: 2px 5px 15px grey;
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+	flex:0 0 28%;
+	max-width: 28%;
+	
 }
 .featureBox:hover #featureBoxContainer{
 	align-items: center !important;
 }
 .icon{
-	color:white;
-	background-color:#6a8bfa;
-	padding: 5px 89px;
-	border-radius:5px 5px 0 0;
+	color:#777;
+	padding:0 15px;
+}
+.featureBoxTxtWrapper{
+	display:flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	line-height: 1.65714286em;
+	font-family: 'Open Sans', sans-serif;
 }
 .featureBox h2{
-	font-family: 'Roboto', sans-serif;
+	font-size:1.125em;
 	text-align:center;
 	font-weight:500;
-	margin:10px 0 0 0;
+	margin:0;
+	padding-right:15px;
 }
 .featureBox p{
+	font-size:0.75em;
 	margin-top:5px;
-	max-width:265px;
-	margin-left:5px;
+	color:#777;
 }
 
 #page4{
@@ -473,6 +500,12 @@ input::placeholder{
 	flex-direction: column;
 	margin:0 20px 20px 20px;
 }
+.col a, .col a:hover, .col a:focus{
+	color:#BE8972;
+	text-decoration: none;
+	transition:0.5s;
+}
+.col a:hover{color:#dca289; transition:0.5s;}
 .col p{margin:3px 0;}
 .col p:hover{cursor:pointer;}
 .col h4{margin-bottom:0; font-family: sans-serif;}
