@@ -19,9 +19,9 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-#smallScreenNav li{
+#smallScreenNav li, #smallScreenNav a{
 	list-style: none;
-	font-size:2.5em;
+	font-size:1.5em;
 	text-align: center;
 	font-family: sans-serif;
 	margin:10px 0;
@@ -229,7 +229,6 @@ li > a:hover:before {
 	overflow: hidden;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	min-height: 500px;
 
 	/*background-image:url(../img/logoBackground.png);
 	background-repeat: no-repeat;

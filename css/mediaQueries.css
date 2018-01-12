@@ -111,6 +111,7 @@
 }
 
 @media screen and (max-width: 780px) {
+	.nav{background-color:#333 !important;}
 	.nav li{
 		display:none !important;
 	}
@@ -123,6 +124,17 @@
 	}
 	.navLogoContainer{
 		top:0 !important;
+	}
+ .scrolled{
+		background-color:#333 !important;
+		color:white !important;
+	}
+	.scrolled .hamburger{color:white !important;}
+	.scrolled img {
+    filter: grayscale(0%) !important;
+	}
+	#logoBanner{
+		margin-top:50px;
 	}
 	.card{
 		flex:0 0 70% !important;
@@ -147,6 +159,12 @@
 	}
 	#page2{
 		background-position: center center !important;
+		min-height:500px;
+	}
+	#page2 #wrapper{
+		width: calc(100% - 4px);
+		height:100%;
+		padding: 0;
 	}
 	#footer2{
 		font-size:13px !important;
