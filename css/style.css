@@ -152,7 +152,7 @@ li > a:hover:before {
 	color:#373737;
 	text-align: center;
 	padding-top:20px;
-	margin-bottom: 5px;
+	margin:5px 30px;
 }
 .em{
 	color:#373737;
@@ -391,7 +391,7 @@ li > a:hover:before {
   flex-direction: column;
   text-decoration: none;
 
-	margin:20px 10px;
+	margin:20px;
 	padding:60px 40px;
 	flex:0 0 20%;
 	width: 20%;

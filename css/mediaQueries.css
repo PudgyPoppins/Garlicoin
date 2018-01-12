@@ -64,7 +64,7 @@
 		right:auto !important;
 	}
 	#socialWrapper{
-		left:-10px !important;
+		
 	}
 	#footer .footerIcon{
 		display:none !important;
@@ -162,7 +162,7 @@
 		min-height:500px;
 	}
 	#page2 p{
-    margin: 10px 20px !important; 
+    margin: 10px 20px !important;
 	}
 	#footer2{
 		font-size:13px !important;
