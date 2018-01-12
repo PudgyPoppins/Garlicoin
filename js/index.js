@@ -40,6 +40,6 @@ function on() {
 var smolnav = document.getElementById('smallScreenNav');
 window.onclick = function(event) {
     if (event.target == smolnav) {
-        bars.style.display = "none";
+        smolnav.style.display = "none";
     }
 }
