@@ -161,10 +161,8 @@
 		background-position: center center !important;
 		min-height:500px;
 	}
-	#page2 #wrapper{
-		width: calc(100% - 4px);
-		height:100%;
-		padding: 0;
+	#page2 p{
+    margin: 10px 20px !important; 
 	}
 	#footer2{
 		font-size:13px !important;
