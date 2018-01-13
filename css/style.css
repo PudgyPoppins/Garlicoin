@@ -43,12 +43,15 @@ body{
 	background-color:rgba(0,0,0,0.00);
 	transition:0.7s;
 	z-index: 5;
+	text-decoration: none !important;
+	max-height:85px;
 }
 .nav li{
 	list-style: none;
 	display:inline;
 	margin:0 25px;
 	position:relative;
+	text-decoration: none !important;
 }
 .nav li:hover{
 	text-decoration: underline;
@@ -57,6 +60,35 @@ body{
 	width:55px;
 	visibility: hidden;
 }
+
+.dropdown{}
+.dropdown-content {
+	margin-top:33px;
+	display:none;
+  position: fixed;
+  background-color: #212121;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	min-width:205px;
+	transition:all 0.2s linear;
+}
+.dropdown-content a {
+  font-family: "Open Sans", sans-serif;
+	color:rgba(255, 255, 255, 0.6);
+	font-size:0.8rem;
+  padding: 10px 70px 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	transition:all 0.2s linear;
+}
+.dropdown-content a:hover{
+	color:#007bff;
+	margin-left:4px;
+	transition:0.2s all linear;
+}
+/*.dropdown:hover .dropdown-content{display:block;}
+.dropdown-content:hover .dropdown-content{display:block;}*/
 
 .navLogoContainer{
 	position:fixed;
@@ -89,6 +121,7 @@ body{
   background-color: white;
 	color:#373737;
 	transition:0.7s;
+	text-decoration: none !important;
 }
 .nav.scrolled{
 	box-shadow: 0 5px 5px -5px #333;
@@ -334,7 +367,7 @@ li > a:hover:before {
 	justify-content: center;
 	align-items: center;
 }
-#progressWrapper iframe, #reddit-cardWrapper{margin:15px 20px; width:100vw;}
+#progressWrapper iframe, #reddit-cardWrapper{margin:35px 20px; width:100vw;}
 #reddit-cardWrapper{height:300px; overflow:scroll;}
 
 #progressImg{
@@ -365,7 +398,7 @@ li > a:hover:before {
 
 #page5{
 	background-color: #EFEFEF;
-	margin-top:-21px;
+	margin-top:-22px;
 }
 
 .band {
@@ -523,7 +556,7 @@ input::placeholder{
 	transition:0.5s;
 }
 .col a:hover{color:#dca289; transition:0.5s;}
-.col p{margin:3px 0;}
+.col p{margin:3px 0; font-family: "Open Sans", sans-serif; font-size:0.9em;}
 .col p:hover{cursor:pointer;}
 .col h4{margin-bottom:0; font-family: sans-serif;}
 

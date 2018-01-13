@@ -58,9 +58,18 @@
 
 	<div class="nav">
 		<img src="img/garlicoinFullLight.png"/>
-		<ul>
+		<ul style="display:inherit;">
 			<li class="active"><a href="#page1">Home</a></li>
-			<li><a href="#page2">About</a></li>
+			<div class="dropdown">
+			<li onclick="dropdownAbout()"><a href="#page2">About <i class="fas fa-angle-down"></i> </a></li>
+				<div class="dropdown-content" id="dropdownAbout">
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+					<a href="#">Link 4</a>
+					<a href="#">Link 5</a>
+			  </div>
+			</div>
 			<li><a href="#page3">Features</a></li>
 			<!--<li><a href="#page4">Downloads</a></li>-->
 			<li><a href="#page4">Progress</a></li>
@@ -69,6 +78,7 @@
 		</ul>
 		<i class="fa fa-bars fa-2x hamburger" aria-hidden="true" onclick="on()" id="bars"></i>
 	</div>
+
 
 	<div id="page1" class="page">
 	<!--<img src="img/logo.png" id="logo"/>-->

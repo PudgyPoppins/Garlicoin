@@ -33,3 +33,12 @@ window.onclick = function(event) {
         smolnav.style.display = "none";
     }
 }
+
+function dropdownAbout() {
+    var x = document.getElementById("dropdownAbout");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
