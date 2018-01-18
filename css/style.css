@@ -224,9 +224,9 @@ li > a:hover:before {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(135deg,#754c68,#c6426e);
+	background: linear-gradient(135deg,#89aef3,#c6426e);
 	background-size: 400% 400%;
-	animation: animate-gradient 8s ease infinite;
+	animation: animate-gradient 16s ease infinite;
 }
 #page1 img{
 	user-drag: none;
