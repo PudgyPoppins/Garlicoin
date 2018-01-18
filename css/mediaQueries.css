@@ -150,7 +150,7 @@
 		flex-wrap: wrap !important;
 	}
 	#page1 img{
-		width:100vw !important;
+		width:90% !important;
 	}
 	#page1 h2{
 		max-width:calc(100vw - 30px) !important;
@@ -164,6 +164,8 @@
     margin: 10px 20px !important;
 	}
 	#footer{justify-content: center !important;}
+	#socialWrapper{width:90% !important;}
+	#socialWrapper input[type=email], #socialWrapper button {width:100% !important;}
 	#colWrapper{
 		flex-direction: column !important;
 		justify-content: center !important;
