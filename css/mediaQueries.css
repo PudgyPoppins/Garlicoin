@@ -71,7 +71,7 @@
 	}
 }
 
-@media screen and (max-width: 885px) {
+@media screen and (max-width: 950px) {
 	#page2{
 		display:flex !important;
 		flex-direction:column !important;
@@ -96,7 +96,6 @@
 		justify-content: center !important;
 
 		margin-top:20px !important;
-		background-color:#BE8972 !important;
 		width:100vw !important;
 		color:white !important;
 	}
@@ -164,13 +163,14 @@
 	#page2 p{
     margin: 10px 20px !important;
 	}
-	#footer2{
-		font-size:13px !important;
+	#footer{justify-content: center !important;}
+	#colWrapper{
+		flex-direction: column !important;
+		justify-content: center !important;
 	}
-}
-
-@media screen and (max-width: 400px) {
-	#socialWrapper input[type=email]{
-		width:300px !important;
+	.col{
+		border-bottom:2px solid white;
+		justify-content: center !important;
 	}
+	#footer2{padding-bottom:25px !important;}
 }
