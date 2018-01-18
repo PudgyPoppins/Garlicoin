@@ -224,6 +224,9 @@ li > a:hover:before {
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	background: linear-gradient(135deg,#754c68,#c6426e);
+	background-size: 400% 400%;
+	animation: animate-gradient 8s ease infinite;
 }
 #page1 img{
 	user-drag: none;
@@ -381,14 +384,15 @@ li > a:hover:before {
 }
 
 .downloadBtn{
-	background-color: #6a8bfa;
+	background: linear-gradient(135deg,#6a8bfa,#b0a6fb);
+	background-size: 400% 400%;
 	padding:15px;
 	margin:20px;
 	width:275px;
 	display:flex;
 	align-items: center;
 }
-.downloadBtn:hover{cursor: pointer;}
+.downloadBtn:hover{cursor: pointer; animation:animate-gradient 8s infinite;}
 .downloadBtn h2{
 	color:white;
 	font-family:sans-serif;
@@ -469,15 +473,15 @@ li > a:hover:before {
 
 #footer{
 	width:100vw;
-	background-color:#4c403a;
+	background: linear-gradient(135deg,#754c68,#c6426e);
 	display:flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	padding: 15px 0;
 }
 #footer .footerIcon{
 	color:white;
-	margin-left:20px;
 	height:155px;
 
 	display: flex;
@@ -492,39 +496,40 @@ li > a:hover:before {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-
-	position:absolute;
-	left:20px;
+	width: 400pt;
+	/*position:absolute;
+	left:20px;*/
 }
 #socialWrapper input[type=email] {
-	padding:15px 0;
-	border-radius:0 5px;
-	border:2px solid #9e6248;
+	padding:0.5em 0;
+	border-radius:0 5px 0 5px;
+	font-size:1.125em;
+	border:2px solid white;
 	background-color:transparent;
 	transition: border-color .2s linear;
 	text-align: center;
-	width:340px;
-	color:#BE8972;
-	font-size:1.125em;
+	width:240pt;
+	color:white;
 }
 #socialWrapper input[type=email]:focus {
-	border-color:#BE8972;
+	border-color:pink;
 	outline-width: 0;
 	transition: border-color .2s linear;
 }
 input::placeholder{
 	font-size:1.125em;
 	font-family: "Open Sans" "abril-fatface", sans-serif;
-	color:#9e6248;
+	color:white;
 }
 #socialWrapper button {
-	padding:5px 15px;
-	border-radius:9999px;
-	background-color:transparent;
-	margin-top:20px;
-	font-size: 1.125em;
-	color:#BE8972;
-	border:2px solid #9e6248;
+	font-size:1.25em;
+  padding: 0.5em 0;
+	border-radius:0 5px 0 5px;
+	width:240pt;
+	margin-top:10px;
+	color: #754c68;
+	font-weight:700;
+	background-color:white;
 	transition: border-color .2s linear;
 }
 #socialWrapper button:hover {
@@ -540,10 +545,10 @@ input::placeholder{
 	display:flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	color:#BE8972;
-
-	position:absolute;
-	right:20px;
+	color:white;
+	width: 400pt;
+	/*position:absolute;
+	right:20px;*/
 }
 .col{
 	display:flex;
@@ -551,13 +556,19 @@ input::placeholder{
 	margin:0 20px 20px 20px;
 }
 .col a, .col a:hover, .col a:focus{
-	color:#BE8972;
+	color:white;
 	text-decoration: none;
 	transition:0.5s;
 }
-.col a:hover{color:#dca289; transition:0.5s;}
+.col a:hover{color:#f1f1f1; transition:0.5s;}
 .col p{margin:3px 0; font-family: "Open Sans", sans-serif; font-size:0.9em;}
 .col p:hover{cursor:pointer;}
 .col h4{margin-bottom:0; font-family: sans-serif;}
 
-#footer2{color:white; padding:12px; font-size:1em; font-family: sans-serif;}
+#footer2{color:#754c68; padding:12px; font-size:0.8em; font-family: 'Fira Sans', sans-serif; background-color:white; }
+
+@-webkit-keyframes animate-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
